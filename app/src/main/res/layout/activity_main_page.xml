@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/selector_grey"
+    >
+
+    <TextView
+        android:id="@+id/custom_random"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_background"
+        android:text="自定义随机"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/default_random"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/default_background"
+        android:text="预设随机"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/search_around"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/search_background"
+        android:text="搜索周围"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/almanac"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/almanac_background"
+        android:text="今日黄历"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+
+
+
+</LinearLayout>
